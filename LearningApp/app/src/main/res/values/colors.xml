@@ -3,4 +3,8 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="CorBase">#311659</color>
+    <color name="CorSecundaria">#EDD21D</color>
+    <color name="CordeApoio">#000000</color>
+    <color name="CordeApoio2">#FFFFFF</color>
 </resources>
