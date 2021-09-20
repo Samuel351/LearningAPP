@@ -26,17 +26,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="180sp"
-            android:drawableBottom="@drawable/icbaselineperson"
+            android:paddingTop="20dp"
+            android:gravity="center_horizontal"
+            android:drawableLeft="@drawable/icbaselineperson"
             android:hint="Insira o seu email"
             android:inputType="textEmailAddress" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableBottom="@drawable/icbaselinelock"
+            android:drawableLeft="@drawable/icbaselinelock"
             android:hint="Insira o sua senha"
             android:inputType="number" />
         <LinearLayout
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -49,6 +52,7 @@
             android:text="Entrar" />
 
         <Button
+            android:onClick="EntrarSistema"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
